@@ -10,6 +10,7 @@ Analisis eksplorasi data (EDA) terhadap data transaksi penjualan e-commerce Shop
 - Menganalisis perilaku transaksi (metode pembayaran & opsi pengiriman)
 
 ## Struktur Project
+```
 EDA_Shopee/
 ├── data/
 │   ├── raw/          # File Excel mentah per bulan
@@ -17,6 +18,7 @@ EDA_Shopee/
 ├── notebook/
 │   └── EDA_Shopee.ipynb
 └── README.md
+```
 
 ## Tools yang Digunakan
 Berikut adalah tools/library yang digunakan dalam analisis ini:
@@ -35,14 +37,14 @@ Berikut adalah tools/library yang digunakan dalam analisis ini:
 ## Ringkasan Temuan
 | Dimensi | Temuan Utama |
 |---|---|
-| **Produk** | Nampan/Tray terlaris, Rak Serbaguna cancellation rate ~30% |
+| **Produk** | Nampan/Tray terlaris, Pengolah Bumbu / Sayur & Rak Serbaguna cancellation rate ~30% |
 | **Waktu** | Peak revenue Oktober 2024, jam tersibuk pukul 11.00–13.00 |
 | **Lokasi** | Jawa Barat dominan >30% total transaksi |
 | **Transaksi** | 52% COD, 60% pilih ongkir termurah, median Rp 23.920 |
 
 ## Rekomendasi Bisnis
 1. **Fokus stok Nampan/Tray** — demand tinggi dan stabil, prioritaskan menjelang Q3–Q4
-2. **Investigasi pembatalan** — telusuri penyebab cancellation rate tinggi di Rak Serbaguna dan Celengan
+2. **Investigasi pembatalan** — telusuri penyebab cancellation rate tinggi di Pengolah Bumbu / Sayur & Rak Serbaguna
 3. **Optimalkan promosi di peak hour** — jalankan flash sale di pukul 11.00–13.00 dan 19.00–20.00
 4. **Eksplorasi pasar luar Jawa** — Sumatera dan Sulawesi masih sangat bisa dikembangkan
 
